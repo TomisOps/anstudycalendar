@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(73, 29, 1);
+
+
+}
+.body {
+    background-image: url(https://fondosmil.com/fondo/1678.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position:absolute;
+
+
+
+}
+.body:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(56, 27, 0, 0.4);
+}
+.header {
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(84,55,30);
+    background: linear-gradient(90deg, rgba(84,55,30,1) 10%, rgba(103,56,12,1) 50%, rgba(84,55,30,1) 90%);
+    height: 65px;
+    z-index: 10;
+
+    
+}
+.header img {
+    width: 80px;
+    height: 90%;
+    opacity: 0.8;
+}
+
+h1 {
+    color: rgb(221, 142, 51);
+    font-family: 'Pangolin', cursive;
+    font-weight: 800;
+    font-size: 35px;
+    letter-spacing: 1.7mm;
+}
+
+table, th, td {
+    border: 4px solid rgb(70, 26, 9);
+    opacity: 100%;
+    z-index: 5;
+}
+table {
+    color: rgb(100, 45, 0);
+    border-collapse: collapse;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+td {
+    text-align: left;
+    padding-left: 3px;
+    opacity: 0.9;
+}
+  
+th,
+td {
+    font-weight: bold;
+    font-family: 'Pangolin', cursive;
+    background-color: #e08758;
+    width: 150px;
+    height: 50px;
+    max-height: 50px;
+
+}
+th {
+    font-size: 35px;
+    color: rgb(228, 104, 3); 
+    background-color: rgb(116, 47, 25);
+}
+p {
+    font-size: 23px;
+    font-family: 'Itim', cursive;
+    color: #ffc862;
+}
